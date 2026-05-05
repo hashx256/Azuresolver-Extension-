@@ -50,7 +50,7 @@ The extension uses an **upgrade-wins detection engine** — meaning if multiple 
 
 - 🧠 **Priority-based type resolution** — avoids misidentification when multiple CAPTCHA signals fire
 - 📡 **Intercepted network requests** — catches sitekeys from `anchor`, `bframe`, and `/enterprise` endpoints
-- 🔍 **Deep DOM scanning** — inspects `.g-recaptcha`, `.h-captcha`, `.cf-turnstile`, `data-sitekey` attributes and more
+- 🔍 **Deep DOM scanning** — inspects `.g-recaptcha`,  `.cf-turnstile`, `data-sitekey` attributes and more
 - 🔄 **Auto-upgrades detections** — e.g. upgrades `v2 Checkbox → Enterprise v3` on reload signals
 - 🌐 **Works on all URLs** — including iframes and dynamically loaded CAPTCHA widgets
 
