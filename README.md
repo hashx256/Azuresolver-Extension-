@@ -130,12 +130,15 @@ Once you have the extracted parameters, plug them directly into the [AzureSolver
 
 ```json
 {
-  "clientKey": "YOUR_API_KEY",
-  "task": {
-    "type": "ReCaptchaV3TaskProxyless",
-    "websiteURL": "https://example.com",
-    "websiteKey": "<extracted_by_extension>",
-    "pageAction": "login"
+  "info": {
+    "api_service": "ReCaptchaV3",
+    "api_token": "AZURE-your-api-key"
+  },
+  "params": {
+    "websiteURL": "https://example.com/path",
+    "websiteKey": "6Lc_xxxxxxxxxxxxxxxxxxxxxxxxxxxxx",
+    "pageAction": "submit",
+    "isInvisible": true
   }
 }
 ```
